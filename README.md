@@ -2,12 +2,18 @@
 
 A blazing fast JavaScript framework for the HTML, lightweight, **no-build** reactivity engine for the modern web inspired by alpinejs, stimulus and nomini.
 
-**Key Features:**
-*   **Zero Dependencies:** Just one ES Module file.
-*   **No Build Step:** Works directly in the browser.
-*   **High Performance:** Features Smart DOM Moving, Keyed Diffing, and Fast-Path Access.
-*   **Memory Efficient:** True conditional rendering (`data-if`) and one-time bindings (`*`).
-*   **Reactivity:** Fine-grained reactivity with dependency tracking.
+Spikip.js is designed to feel *native*, predictable, and easy to reason about.
+
+---
+
+## ✨ Core Philosophy
+
+- 🧠 **HTML-first** — logic lives close to markup
+- ⚡ **Fine-grained reactivity** — only what changes updates
+- 🧩 **No framework lock-in** — plain JS, plain DOM
+- 🏷 **Simple `data-*` directives** — easy to learn, easy to debug
+- 🔁 **Keyed DOM loops** with smart DOM movement
+- 🪶 **Small & dependency-free**
 
 ---
 
