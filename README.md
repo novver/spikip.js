@@ -35,14 +35,14 @@ Simply download `spikip.js` and import it into your project.
 | `data-func` | `<div data-func="counter">` | Defines a component entry point |
 | `data-text` | `<p data-text="count">` | Reactive text content |
 | `data-html` | `<div data-html="content>"` | Reactive inner HTML |
-| `data-value` | `<input data-value="name">` | Reactive in input |
-| `data-bind` | `<button data-bind="click:save"> or <div data-bind="init">` | Event binding & init calls |
+| `data-value` | `<input data-value="email">` | Reactive in input |
+| `data-bind` | `<button data-bind="click:save"> or `<br>`<div data-bind="init">` | Event binding & init calls |
 | `data-if` | `<div data-if="open">` | Conditional rendering |
 | `data-loop` | `<template data-loop="(item,i) in items">` | Loop rendering |
 | `data-key` | `<template data-key="item.id">` | Stable key for loop items |
-| `data-ref` | `<div data-ref="foo">` | DOM reference access |
-| `data-class` | `<div data-class="active:isActive"> or <div data-class="bg-red:isActive, border-red:isActive">` | Conditional class |
-| `data-props` | `<button data-props="disabled:loading"> or <a data-props="href:item.url, title:item.name">` | Reactive DOM attribute property |
+| `data-ref` | `<div data-ref="name">` | DOM reference access |
+| `data-class` | `<div data-class="active:isActive"> or `<br>`<div data-class="bg-red:isActive, border-red:isActive">` | Conditional class |
+| `data-props` | `<button data-props="disabled:loading"> or `<br>`<a data-props="href:item.url, title:item.name">` | Reactive DOM attribute property |
 | `data-static` | `<div data-static>` | Skip reactive processing |
 
 
