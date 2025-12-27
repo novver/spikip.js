@@ -16,6 +16,7 @@ A blazing fast JavaScript framework for the HTML, lightweight, **no-build** reac
 Simply download `spikip.js` and import it into your project.
 
 **1. Create HTML:**
+
 Mark your component wrapper with `data-func`.
 
 ```html
