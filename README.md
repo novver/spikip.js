@@ -28,6 +28,24 @@ Simply download `spikip.js` and import it into your project.
 
 ---
 
+## 🧩 Core Directives
+
+| Directive | Example Usage | Description |
+|---------|---------------|-------------|
+| `data-func` | `data-func="counter"` | Defines a component entry point |
+| `data-text` | `data-text="count"` | Reactive text content |
+| `data-html` | `data-html="content"` | Reactive inner HTML |
+| `data-value` | `data-value="name"` | Two-way form binding |
+| `data-bind` | `data-bind="click:save" or data-bind="init"` | Event binding & init calls |
+| `data-if` | `data-if="open"` | Conditional rendering |
+| `data-loop` | `data-loop="item,i in items"` | Loop rendering |
+| `data-key` | `data-key="item.id"` | Stable key for loop items |
+| `data-ref` | `data-ref="input"` | DOM reference access |
+| `data-class` | `data-class="active:isActive" or data-class="bg-red:isActive, border-red:isActive"` | Conditional class |
+| `data-props` | `data-props="disabled:loading" or data-props="href:item.url, title:item.name"` | Reactive DOM attribute property |
+| `data-static` | `data-static` | Skip reactive processing |
+
+
 ## 🚀 Quick Start
 
 **1. Create HTML:**
