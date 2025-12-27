@@ -1,7 +1,6 @@
 # ⚡ Spikip.js
 
-A blazing fast, lightweight, **no-build** reactivity engine for the modern web.
-Spikip brings Vue-like reactivity and directives to vanilla JavaScript without the complexity of bundlers (Webpack/Vite) or the overhead of Virtual DOM.
+A blazing fast JavaScript framework for the HTML, lightweight, **no-build** reactivity engine for the modern web inspired by alpinejs, stimulus and nomini.
 
 **Key Features:**
 *   **Zero Dependencies:** Just one ES Module file.
@@ -44,16 +43,10 @@ Mark your component wrapper with `data-func`.
 **2. Define Logic:**
 
 ```javascript
-spikip.define('counter', () => {
-    // 1. Define State
-    const state = { count: 0 };
-
-    // 2. Define Methods
-    const inc = () => state.count++;
-
-    // 3. Return everything to the template
-    return { state, inc };
-});
+spikip.define('counter', () => ({
+    count: 0,
+    inc(){ this.count++ }
+}));
 
 spikip.start();
 ```
